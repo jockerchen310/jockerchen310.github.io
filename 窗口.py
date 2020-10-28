@@ -20,7 +20,7 @@ plt.ylabel("x")
 top.geometry('700x450')
 #加上按钮
 button1 = tkinter.Button(top)
-button1['text'] = '离散信号1'
+button1['text'] = '离散信号'
 #添加按钮操作 
 button1['command'] = on_click 
 button1.pack()
